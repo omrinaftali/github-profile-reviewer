@@ -24,3 +24,21 @@ AI_API_KEY=your_actual_gemini_api_key_here
 ### 3. Run Backend
 ```bash
 npm run dev
+
+### 4. Frontend Setup & Run
+```bash
+cd frontend
+npm install
+npm run dev
+
+**Open the local URL provided by Vite (usually http://localhost:5173) in browser.**
+
+### Smart Use of AI:
+'For a Full-Stack project like this, a visual development environment like Cursor provided a much more convenient setup. In Cursor, I could see the code, the CSS, and the folder structure all together and in real-time, which gave me a much faster development experience for building the UI.
+I am familiar with Claude Code (Anthropic's new CLI tool that runs from the terminal), but I chose not to use it for this project. The reason is that Claude Code runs entirely inside the terminal and is great for automation, scanning local files, and Git commands.
+
+### Decision-Making:
+'I chose to build a Node.js backend and a React frontend to present a real Full-Stack project, and to use Structured JSON on the backend to make sure the frontend never breaks from the AI's responses.
+
+### Clarity & Structure:
+I handled edge cases (like non-existent users or responses missing a README) so the code wouldn't crash, and provided clear explanations in the README file.
