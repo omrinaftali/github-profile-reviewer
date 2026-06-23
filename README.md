@@ -13,20 +13,20 @@ The app takes a GitHub username, fetches all public repositories, reads their RE
 ## Installation & Setup
 
 ### 1. Backend Setup
-```bash
+bash
 cd backend
-npm install
+npm install    
 
 ### 2. Environment Variables
 PORT=5001
 AI_API_KEY=your_actual_gemini_api_key_here
 
 ### 3. Run Backend
-```bash
+bash
 npm run dev
 
 ### 4. Frontend Setup & Run
-```bash
+bash
 cd frontend
 npm install
 npm run dev
